@@ -17,6 +17,9 @@ export default function ShortenerForm() {
     setError(null);
     setResult(null);
 
+    // Trigger functional live-demo integration for Observability Panel
+    window.dispatchEvent(new Event('demo-spike'));
+
     try {
       // Basic validation
       new URL(url);

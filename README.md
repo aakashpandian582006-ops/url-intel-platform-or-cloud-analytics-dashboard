@@ -1,6 +1,8 @@
 # Cloud-Native URL Intelligence Platform
 
-An enterprise-grade, serverless URL shortener built on Cloudflare, featuring real-time traffic analytics and automated AI threat detection.
+🚀 **Live Demo:** [https://frontend-eta-indol-18.vercel.app](https://frontend-eta-indol-18.vercel.app)
+
+An enterprise-grade, serverless URL shortener built on Cloudflare, featuring real-time traffic analytics, automated AI threat detection, and a sophisticated Executive Compliance Dashboard.
 
 ## Architecture
 
