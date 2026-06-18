@@ -21,9 +21,9 @@ flowchart TD
     
     Client -->|API Requests| Worker[Cloudflare Worker]
     
-    Worker -->|POST /api/shorten| H1(Shorten Handler)
-    Worker -->|GET /{code}| H2(Redirect Handler)
-    Worker -->|GET /api/analytics| H3(Analytics Handler)
+    Worker -->|"POST /api/shorten"| H1(Shorten Handler)
+    Worker -->|"GET /{code}"| H2(Redirect Handler)
+    Worker -->|"GET /api/analytics"| H3(Analytics Handler)
     
     H1 <-->|NLP Threat Intel| AI[Cloudflare Workers AI]
     
