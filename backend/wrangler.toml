@@ -1,0 +1,12 @@
+name = "url-intelligence-worker"
+main = "src/index.ts"
+compatibility_date = "2024-02-08"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "URL_MAPPINGS", id = "a45d6b27dcdf4c96a3398414d3050d82" },
+  { binding = "ANALYTICS", id = "409d27568bdc451bb20a01fc9821edf5" }
+]
+
+[ai]
+binding = "AI"

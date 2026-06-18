@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Cloud-Native URL Intelligence Platform - Cloudflare Worker",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "nanoid": "^5.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.28.1"
+  }
+}
